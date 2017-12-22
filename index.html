@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    
+    <title>jQuery Slugify (with Turkish Support)</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/sifirla.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+
+</head>
+
+<body>
+
+    <div id="govde">
+        <div id="kutu">
+
+            <div class="baslik">jQuery Slugify (with Turkish Support)</div>
+            <div class="durum">
+                <div class="ikaz">Type your text to slugify.</div>
+            </div>
+            <table>
+            <tr>
+                <td>Title</td>
+                <td><input type="text" name="title" class="slug-source" tabindex="1" /></td>
+            </tr>
+            <tr>
+                <td>Slug</td>
+                <td><input type="text" name="slug" class="slug-target" tabindex="2" /></td>
+            </tr>
+            </table>
+            
+        </div>
+        <div id="altbilgi">
+            <a href="http://www.yakuter.com/ygiris-yakuter-giris-betigi/">jQuery Slugify (with Turkish Support)</a> |
+            Copyright &copy; 2017 &nbsp;|&nbsp;
+            <a href="https://www.yakuter.com/" title="yakuter">yakuter</a>
+        </div>
+    </div>
+
+    <!-- JS -->    
+    <script src="js/jquery.js"></script>
+    <script src="js/speakingurl.min.js"></script>
+    <script src="js/slugify.min.js"></script>
+    <script>
+        jQuery(function($) {
+            $('.slug-target').slugify('.slug-source'); 
+        });
+    </script>
+</body>
+
+</html>
