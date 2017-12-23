@@ -6,14 +6,7 @@ Just another another (another (another)) url slug creation plugin for jQuery. Th
 
 ![Screenshot](https://raw.githubusercontent.com/yakuter/jquery-slugify/master/jquery-slugify-with-turkish-support.png)
 
-
-You can download the project and learn usage in <strong>index.html</strong> file.
-
-
-The plugin depends on [speakingurl][speakingurl] and [jquery-slugify][jquery-slugify]
-[speakingurl]: https://github.com/pid/speakingurl
-[jquery-slugify]: https://github.com/madflow/jquery-slugify
-
+This plugin is the fixed version of https://github.com/madflow/jquery-slugify for Turkish Language
 
 In your web page:
 
