@@ -20,9 +20,9 @@ In your web page:
 
 <script>
 jQuery(function($) {
-  $('#slug-target').slugify('#slug-source'); // Type as you slug
+  $('.slug-target').slugify('.slug-source'); // Type as you slug
 
-  $("#slug-target").slugify("#slug-source", {
+  $(".slug-target1").slugify(".slug-source1", {
   	separator: '_' // If you want to change separator from hyphen (-) to underscore (_).
   });
 });
